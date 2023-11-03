@@ -1,3 +1,18 @@
+# Implemented Functionality
+
+- Message of types:
+    - Text
+    - Card
+    - Option (only single choice)
+    - Image (as card)
+    - Video (as link)
+    - File (as link)
+- Actions:
+    - Human handoff
+        - Pass the conversation to a human (essentially only changing the status of the conversation from "pending" to "open" -- this is how Chatwoot handles handoff, see more at https://www.chatwoot.com/docs/product/others/agent-bots)
+    - Create new conversation/ticket
+        - To escalate an issue, start a new conversation in a separate inbox, which is essentially a ticket
+
 # Prerequisites
 
 To follow this guide and build your own integration, ensure you have the following:
